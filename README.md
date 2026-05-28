@@ -6,8 +6,15 @@ This spatiotemporal framework alignes maximum pressure pictures (MPP) and sample
 # Inputs
 On a per participant folder directory organization, .txt files of the raw MPP and stance frames across the entire sensor platform, please see the figure below for how the data was exported using ASCII software. Input .txt files need to be organized with an "_n" at the end for trial number.
 
+MPP:
+<img src="Images/MPP_exporting_txtfile.png" width="300">
+FRAME:
+<img src="Images/FRAME_exporting_txtfile.png" width="300">
+
 # Outputs
 Raw and aligned MPP and frames are exported to an .xlsx file, along with center of pressure (COP) locations at each frame. Other outputs include MATLAB (.fig) files for each raw and aligned MPP and frame and a gif for each aligned frame combined (see below).
+
+<img src="Images/plantar_progression.gif" width="300">
 
 # Running the Analysis
 1. Clone or download the repository
