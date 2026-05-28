@@ -26,7 +26,7 @@ Raw and aligned MPP and frames are exported to an .xlsx file, along with center 
 The code is built on the foot progression angle (FPA) for rotation of all trials, this FPA can be exported from data collection software or calculated in the code based upon a previously developed approach (Keijsers NLW, et al., "A new method to normalize plantar pressure measurements for foot size and foot progression angle", 2009.). Resampling of the MPP and frames uses a force preserving approach to align all to a standard grid size - see the resample_force_preserve.m function.
 
 # Authors
-Tyce C. Marquez ([LinkedIn](www.linkedin.com/in/tyce-marquez-3b4696194))
+Tyce C. Marquez
 University of Iowa
 
 # Citation
