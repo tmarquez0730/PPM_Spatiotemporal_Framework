@@ -29,9 +29,11 @@ The code is built on the foot progression angle (FPA) for rotation of all trials
 Tyce C. Marquez ([LinkedIn](www.linkedin.com/in/tyce-marquez-3b4696194))
 University of Iowa
 
+# Citation
+Citation will be updated when accepted.
 
 # License
 This project is licensed under the MIT License.
 
 # Version History
-0.1 Initial Release
+v0.1 Initial Release
