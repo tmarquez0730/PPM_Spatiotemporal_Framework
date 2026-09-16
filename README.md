@@ -3,6 +3,8 @@
 # Description
 This spatiotemporal framework alignes maximum pressure pictures (MPP) and sampled pressures over the stance phase of gait (frames) for analysis of plantar pressures at spatial grid locations (sensor-level statistics). This code was built using the Novel EMED sensor platforms and data exporting software. 
 
+Please see the instruction for use: docs/SOP_PPM_Spatiotemporal_version_a.pdf
+
 # Inputs
 On a per participant folder directory organization, .txt files of the raw MPP and stance frames across the entire sensor platform, please see the figure below for how the data was exported using ASCII software. Input .txt files need to be organized with an "_n" at the end for trial number.
 
