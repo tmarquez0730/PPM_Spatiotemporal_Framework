@@ -78,7 +78,7 @@ xPoints = xPoints(ValidIndices);
 yPoints = -yPoints(ValidIndices);
 zPoints = zPoints(ValidIndices);
 
-%Convert all left feet to right feet
+%Convert all right feet to left feet
 if FootSide == 1
     xPoints = -xPoints;
     MPP = fliplr(MPP);
