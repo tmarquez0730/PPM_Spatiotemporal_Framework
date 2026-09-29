@@ -3,7 +3,7 @@
 # Description
 This spatiotemporal framework alignes maximum pressure pictures (MPP) and sampled pressures over the stance phase of gait (frames) for analysis of plantar pressures at spatial grid locations (sensor-level statistics). This code was built using the Novel EMED sensor platforms and data exporting software. 
 
-Please see the instruction for use: docs/SOP_PPM_Spatiotemporal_version_a.pdf
+Please see the instruction for use: **SOP_PPM_Spatiotemporal_version_a.pdf**
 
 # Inputs
 On a per participant folder directory organization, .txt files of the raw MPP and stance frames across the entire sensor platform, please see the figure below for how the data was exported using ASCII software. Input .txt files need to be organized with an "_n" at the end for trial number.
@@ -25,14 +25,14 @@ Raw and aligned MPP and frames are exported to an .xlsx file, along with center 
 4. Run: PPM_Stance_Intervals_EMEDxl.m (or just EMED.m if data collection was on the non-xl version).
 
 # Important information
-The code is built on the foot progression angle (FPA) for rotation of all trials, this FPA can be exported from data collection software or calculated in the code based upon a previously developed approach (Keijsers NLW, et al., "A new method to normalize plantar pressure measurements for foot size and foot progression angle", 2009.). Resampling of the MPP and frames uses a force preserving approach to align all to a standard grid size - see the resample_force_preserve.m function.
+The code is built on the foot progression angle (FPA) for rotation of all trials, this FPA can be exported from data collection software or calculated in the code based upon a previously developed approach (Keijsers NLW., et al. "A new method to normalize plantar pressure measurements for foot size and foot progression angle", 2009.). Resampling of the MPP and frames uses a force preserving approach to align all to a standard grid size - see the resample_force_preserve.m function.
 
 # Authors
 Tyce C. Marquez | 
 University of Iowa
 
 # Citation
-Citation will be updated when accepted.
+Marquez TC., et al. (2026). "A Framework for robust spatiotemporal analysis of dynamic plantar pressure measurement over the stance phase of gait". J Biomech. PMID: 42759384.
 
 # License
 This project is licensed under the MIT License.
